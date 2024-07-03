@@ -50,14 +50,13 @@ image2 = Image.open(BytesIO(response2.content))
 ####################################################################
 if selected == 'Introducción':
     st.title('Storytelling')
+    st.write('Como 2 amigos emprendedores, siempre nos hacemos preguntas para ver que podemos solucionar. Un día, nos encontrabamos en una cocina y salió la pregunta') 
     st.subheader('¿que quieren cenar hoy?')
 
-    st.write('Esta fue la pregunta que se nos vino a la cabeza al crear nuestro sistema de recomendacion, donde en nuestras casas todas las noches nos preguntabamos que podíamos cenar hoy con los ingredientes que tenemos.')
+    st.write('Esta fue la pregunta que se nos llevo  a crear este sistema de recomendacion, y vimos que en nuestras casas a diario nos preguntabamos que podíamos cenar hoy con los ingredientes que tenemos.')
     pregunta = st.image("pregunta.jpeg")
-    st.write('Pensamos en como podiamos solucionar este problema entonces nos pusimos manos a la obra con lo que aprendimos en IA.')
-    st.write('Entonces........')
-
-
+    st.write('Pensamos en como podiamos solucionar este problema... nos pusimos manos a la obra y con lo que aprendimos en IA apareció la IDEA.')
+    st.write('........................................................................................')
     st.header('Sistema de recomendacion de recetas')
     st.write('Ante la cantidad de recetas que tenemos en nuestra Web, es ideal mostrarte cuales son las recetas que se amoldan a tus gustos.')
     st.write('Por eso, buscamos desarrollar un sistema que te ayude a elegir.')
