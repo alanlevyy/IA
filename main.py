@@ -65,7 +65,7 @@ if selected == 'Introducción':
     st.header('Explicando los datos 🗣️📊:')
     st.write('El conjunto de datos utilizado, es un conjunto de datos sacado de kaggle (https://www.kaggle.com/datasets/kanaryayi/recipe-ingredients-and-reviews?resource=download).')
     st.write('Contiene recetas, con sus ingredientes y direcciones, y despues los ratings')
-    st.write('Para este proyecto se utiliza una base de 12.351 recetas y 291.840 puntuaciones que realizaron usuarios acerca de los mismos.')
+    st.write('Para este proyecto se utiliza una base de 12.351 recetas y 1.563.566 puntuaciones que realizaron usuarios acerca de los mismos.')
     st.write("A continuación podemos ver cómo se componen los set de datos utilizados:")
     st.dataframe(data.head())
 
