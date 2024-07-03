@@ -117,6 +117,7 @@ elif selected == 'Visualización':
 #####################################################
 elif selected == 'Modelo':
    # Título de la aplicación
+    st.write('https://colab.research.google.com/drive/1cPJhgMGfMNvOcDgmATnn239pLh3zdLdW#scrollTo=TSjRQkT449F3')
     st.title("Ventajas y Desventajas de Usar Solo la Columna Ingredients vs. Ingredients + Directions")
 
 # Ventajas y Desventajas de Usar Solo la Columna Ingredients
