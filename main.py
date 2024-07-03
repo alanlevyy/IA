@@ -49,10 +49,14 @@ image = Image.open(BytesIO(response.content))
 image2 = Image.open(BytesIO(response2.content))
 ####################################################################
 if selected == 'Introducción':
-    st.title('¿Receta vegana o no vegana?')
-    st.write('Encontramos tu próxima receta.')
-# Agregar la imagen debajo del título    
-    st.image(image, caption="Figura 1. El veganismo es una filosofía de vida que busca excluir la explotación animal para alimentación, vestimenta, entretenimiento o cualquier otro propósito, abogando por una dieta basada en vegetales y un estilo de vida compasivo y respetuoso con todos los seres sintientes.", use_column_width=True)
+    st.title('Storytelling')
+    st.subheader('¿que quieren cenar hoy?')
+
+    st.write('Esta fue la pregunta que se nos vino a la cabeza al crear nuestro sistema de recomendacion, donde en nuestras casas todas las noches nos preguntabamos que podíamos cenar hoy con los ingredientes que tenemos.')
+    pregunta = st.image("pregunta.jpeg")
+    st.write('Pensamos en como podiamos solucionar este problema entonces nos pusimos manos a la obra con lo que aprendimos en IA.')
+    st.write('Entonces........')
+
 
     st.header('Sistema de recomendacion de recetas')
     st.write('Ante la cantidad de recetas que tenemos en nuestra Web, es ideal mostrarte cuales son las recetas que se amoldan a tus gustos.')
@@ -76,6 +80,9 @@ if selected == 'Introducción':
     st.markdown("\n **Directions** : Pasos a seguir para hacer la receta.")
     st.markdown("\n **Rate** : Puntuación de cada receta promedio.")
 
+    st.header('¿Vegana o no vegana')
+    st.write('Otra de las dudas que nos surgian, es si teniamos invitados veganos en casa poder hacerles una receta adecuada para ellos.')    
+    st.image(image, caption="Figura 1. El veganismo es una filosofía de vida que busca excluir la explotación animal para alimentación, vestimenta, entretenimiento o cualquier otro propósito, abogando por una dieta basada en vegetales y un estilo de vida compasivo y respetuoso con todos los seres sintientes.", use_column_width=True)
 ###########################################################################
 
 elif selected == 'Visualización':
