@@ -78,7 +78,7 @@ if selected == 'Introducción':
     st.markdown("\n **Directions** : Pasos a seguir para hacer la receta.")
     st.markdown("\n **Rate** : Puntuación de cada receta promedio.")
 
-    st.header('¿Vegana o no vegana')
+    st.header('¿Vegana o no vegana?')
     st.write('Otra de las dudas que nos surgian, es si teniamos invitados veganos en casa poder hacerles una receta adecuada para ellos.')    
     st.image(image, caption="Figura 1. El veganismo es una filosofía de vida que busca excluir la explotación animal para alimentación, vestimenta, entretenimiento o cualquier otro propósito, abogando por una dieta basada en vegetales y un estilo de vida compasivo y respetuoso con todos los seres sintientes.", use_column_width=True)
 ###########################################################################
